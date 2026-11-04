@@ -5,7 +5,6 @@ import {
   Facebook,
   Github,
   Send,
-  Info,
   Sparkles,
 } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
@@ -116,20 +115,7 @@ export default function Contact() {
             })}
           </div>
 
-          <div className="contact-service-notice">
-            <Info
-              size={15}
-              style={{
-                display: 'inline',
-                verticalAlign: 'middle',
-                marginRight: '6px',
-                color: '#B76E8B',
-              }}
-            />
-            <strong>Easy to customize:</strong> Update your Email, Instagram,
-            Facebook, and GitHub links anytime inside{' '}
-            <code>src/data/portfolioData.js</code>.
-          </div>
+
         </div>
 
         {/* Right Column: Contact Form */}
