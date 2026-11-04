@@ -3,7 +3,6 @@ import { BookHeart, Film, Gamepad2, Headphones } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
 import FamilySection from './FamilySection';
 import DogProfiles from './DogProfiles';
-import JoshSection from './JoshSection';
 import '../styles/littleThings.css';
 
 function getHobbyIcon(iconKey) {
@@ -41,10 +40,7 @@ export default function LittleThings() {
           {/* B. My Three Little Fur Babies 🐾 */}
           <DogProfiles />
 
-          {/* C. Josh ♡ */}
-          <JoshSection />
-
-          {/* D. My Hobbies 🎧 */}
+          {/* C. My Hobbies 🎧 */}
           <div className="diary-subsection">
             <div className="diary-sub-header">
               <span className="diary-chapter-tag">{hobbies.sectionLabel}</span>
@@ -65,7 +61,7 @@ export default function LittleThings() {
             </div>
           </div>
 
-          {/* E. Little Things I Love */}
+          {/* D. Little Things I Love */}
           <div className="diary-subsection">
             <div className="diary-sub-header">
               <span className="diary-chapter-tag">{loves.sectionLabel}</span>

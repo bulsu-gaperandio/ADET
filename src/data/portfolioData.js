@@ -313,7 +313,7 @@ export const portfolioData = {
     },
 
     hobbies: {
-      sectionLabel: 'D. MY HOBBIES 🎧',
+      sectionLabel: 'C. MY HOBBIES 🎧',
       heading: 'Things I enjoy doing.',
       items: [
         {
@@ -347,7 +347,7 @@ export const portfolioData = {
     },
 
     loves: {
-      sectionLabel: 'E. LITTLE THINGS I LOVE',
+      sectionLabel: 'D. LITTLE THINGS I LOVE',
       heading: 'Little things I love ♡',
       items: [
         { label: 'Dogs', emoji: '🐾', note: 'My 3 fur babies' },
